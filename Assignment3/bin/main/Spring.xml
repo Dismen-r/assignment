@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:c="http://www.springframework.org/schema/c"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="u1" class="Assignment3.User">
+
+		<property name="username" value="setter" />
+		<property name="emailid" value="getter@gmail.com" />
+		<property name="password" value="12345678" />
+		<property name="mobileno" value="56453423" />
+	</bean>
+	<bean id="c1" class="Assignment3.Comment">
+		<property name="comment_id" value="0001" />
+		<property name="Likes" value="0" />
+		<property name="Dislikes" value="100" />
+		<property name="report" value="true" />
+		<property name="comment_text" value="needs improvement" />
+		
+	</bean>
+	<bean id="p1" class="Assignment3.Product">
+		<property name="id" value="0001" />
+		<property name="description" value="abc xyz" />
+		<property name="rating" value="5" />
+		<property name="name" value="p1" />
+		
+	</bean>
+	<bean id="r1" class="Assignment3.Review">
+<property name="reviewid" value="0001"/>
+	<property name="product_reviewed" ref="p1"/>
+	<property name="review_text" value="needs improvement"/>
+	<property name="comments">
+		<list>
+			<ref bean="c1"/>
+		</list>
+	</property>
+	</bean>
+</beans>
+ 
+ 
+ 

@@ -1,0 +1,12 @@
+package Assignment1;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class App {
+	public static void main(String[] args) {
+    	ApplicationContext context=new ClassPathXmlApplicationContext("OnlineShoping.xml");
+        User customer=context.getBean("c1",User.class);
+        System.out.println(customer.getEmail());
+        }
+}

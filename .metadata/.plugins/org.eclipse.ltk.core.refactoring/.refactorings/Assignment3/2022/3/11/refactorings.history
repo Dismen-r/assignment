@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Assignment3.Financial&apos; to &apos;Product&apos;&#x0D;&#x0A;- Original project: &apos;Assignment3&apos;&#x0D;&#x0A;- Original element: &apos;Assignment3.Financial&apos;&#x0D;&#x0A;- Renamed element: &apos;Assignment3.Product&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Financial&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/gradle_scope=/main=/=/gradle_used_by_scope=/main,test=/&lt;Assignment3{Financial.java[Financial" matchStrategy="1" name="Product" qualified="false" references="true" similarDeclarations="false" stamp="1646744895604" textual="false" version="1.0"/>
+</session>

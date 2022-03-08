@@ -1,0 +1,12 @@
+package OnlineShoping;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Order {
+
+	ArrayList<Cart> CartList = new ArrayList<>();
+	public List<Cart> GetCartList(){
+		return this.CartList;
+	}
+}

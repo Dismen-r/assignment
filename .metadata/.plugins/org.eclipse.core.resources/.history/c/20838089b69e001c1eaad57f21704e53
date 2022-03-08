@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:p="http://www.springframework.org/schema/p"
+ xmlns:c="http://www.springframework.org/schema/c"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd">
+ 
+ <bean id="u1" class="Assignment1.User" c:username="jok" 
+ c:email="getter@gmail.com" c:password="2508"
+ c:shipping_address="old street,China" c:billing_address="a/c no : 12345678">
+ </bean>
+ 
+ <bean id="p1" class="Assignment1.Product" c:product_name="iron" c:price="2000"></bean>
+ </beans>

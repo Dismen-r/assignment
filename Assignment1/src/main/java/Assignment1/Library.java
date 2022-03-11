@@ -3,9 +3,6 @@
  */
 package Assignment1;
 
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
-
 public class Library{
     public boolean someLibraryMethod() {
         return true;

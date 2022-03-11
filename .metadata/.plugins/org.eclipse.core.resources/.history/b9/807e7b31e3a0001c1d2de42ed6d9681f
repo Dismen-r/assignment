@@ -1,0 +1,5 @@
+package Assignment2;
+enum rating{EXCELLENT,GOOD,AVERAGE,POOR}
+public class Rating {
+
+}

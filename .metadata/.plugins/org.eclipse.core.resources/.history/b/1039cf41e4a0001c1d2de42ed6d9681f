@@ -1,0 +1,8 @@
+package Assignment2;
+
+public class Task {
+int taskid;
+String task_description;
+date_time date_of_allocation;
+
+}
